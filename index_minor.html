@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>phishing detection</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.2.0/fonts/remixicon.css" 
+    rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/boxicons@2.0.7/dist/css/boxicons.min.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+</head>
+<body id="mainBody">
+    
+
+<header>
+    <a href="#" class="logo"><i class="ri-shake-hands-fill"></i><span>Phishing<br> Detection</span></a>
+
+    <ul class ="navbar">
+        <li><a href="#" class="active">Home</a></li>
+        <li><a href="faq.html">FAQ</a></li> <!-- Added FAQ link -->
+        <button class="theme-button">Theme</button>
+    </ul>
+
+    <div class="main">
+        <a href="signin.html" class="user"><i class="ri-user-fill"></i>Sign In</a>
+        <a href="register.html">Register</a> <!-- Added Register link -->
+        <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAAAXNSR0IArs4c6QAAAUZJREFUSEutVe0SwyAIk77/M48dSDXIR3u7+aeeU0IgYTRk0RiD10eP3pzvi7izYBAiieYvtWA5ys4RQ+09DRospJqVJJEQoX8BaJwkmBzVK/TGmFXJGwqyjwBV+UOKvh5VSaFEMzIzs0pKpKUf3K9fStZElz3cQnQq4g+zylaWAcjBPPJgGQqR5rxVhBLE42cVPejT+aA12kNjE2lGBiEZr7ff2dBwPtAqYw+qKmDzrTfaJxk319HkU31TRfUKsfGqAswu30ECg1QZ60HrsHRoBkktZMwC9hW3fORMTENGKdWDbJe0GDxHgYFB5eSjyMvhaMbtcDHaCe1Y9002JzfqkiZjVSZaNeCCzf3Fru6zUrcPKicjQEiifoRJhx449nZTnVylCzMnGqhkkGTXiqxn42XaCt3/V9diPsf1G/ckAzGULonzBXlosh0OqY9bAAAAAElFTkSuQmCC"/>
+    </div>
+    
+</header>
+
+<footer>
+    <div class="url-check">
+        <input type="text" id="urlInput" placeholder="Enter URL">
+        <button id="checkUrlButton">Check URL</button>
+        <button id="reportButton">Report</button><br><br>
+        <div id="urlResult"></div>
+    </div>
+    <!--js link-->
+    <script src="script.js"></script>
+</footer>
+
+</body>
+</html>
